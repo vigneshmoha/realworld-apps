@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Starter Kit</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="cache-control" content="no-cache"/>
+  <meta http-equiv="pragma" content="no-cache"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport"
+        content="width=device-width,user-scalable=0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <h2>Random password</h2>
+    <div class="result-container">
+      <span id="result"></span>
+      <button class="btn" id="copy">
+        <i class="fa fa-clipboard"></i>
+      </button>
+    </div>
+    <div class="settings">
+      <div class="setting all">
+        <div class="length range__slider">
+            <div class="length__title field-title">length:</div> 
+            <input type="range" id="length" min='4' max='20' value='20' />
+        </div>
+      </div>
+      <div class="setting">
+        <label>Include uppercase letters</label> 
+        <input type="checkbox" id="uppercase" checked />
+      </div>
+      <div class="setting">
+          <label>Include lowercase letters</label> 
+          <input type="checkbox" id="lowercase" checked />
+      </div>
+      <div class="setting">
+          <label>Include numbers</label> 
+          <input type="checkbox" id="numbers" checked />
+      </div>
+      <div class="setting">
+          <label>Include symbols</label> 
+          <input type="checkbox" id="symbols" checked />
+      </div>
+    </div>
+    <button class="btn btn-large" id="generate">Generate password</button>
+  </div>
+</body>
+</html>
