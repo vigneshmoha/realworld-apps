@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodora timer</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="cache-control" content="no-cache"/>
+  <meta http-equiv="pragma" content="no-cache"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport"
+        content="width=device-width,user-scalable=0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <h2>Pomodoro Timer</h2>
+    <div id="pomodoro">
+      <div id="status"></div>
+      <div class="timer-display" id="timer">25:00</div>
+      <button id="start" class="btn">START</button>
+    </div>
+    <div class="settings">
+      <div class="setting-option" id="work">
+        <p>Work duration</p>
+        <button class="btn-settings" id="work-plus">+</button>
+        <div>
+          <span id="work-min">25</span> mins
+        </div>
+        <button class="btn-settings" id="work-minus">-</button>
+      </div>
+      <button id="reset" class="btn">RESET</button>
+      <div class="setting-option" id="break">
+        <p>Break duration</p>
+        <button class="btn-settings" id="break-plus">+</button>
+        <div>
+          <span id="break-min">25</span> mins
+        </div>
+        <button class="btn-settings" id="break-minus">-</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
